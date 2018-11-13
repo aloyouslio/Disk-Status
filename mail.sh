@@ -11,11 +11,11 @@ from email.Header import Header
 from email.Utils import formatdate
 
 # Mail Account
-MAIL_ACCOUNT = 'mis.monitoring@samwoh.com.sg'
-MAIL_PASSWORD = 'Swm1s2mo2018'
+MAIL_ACCOUNT = 'monitoring@gmail.com'
+MAIL_PASSWORD = 'password'
 
 # Sender Name
-SENDER_NAME = u'mis.monitoring'
+SENDER_NAME = u'monitoring'
 
 # Mail Server
 SMTP_SERVER = 'smtp.gmail.com'
