@@ -1,8 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-"""
-Zabbix SMTP Alert script for gmail.
-"""
 
 import sys
 import smtplib
@@ -58,6 +55,6 @@ if __name__ == '__main__':
             body=sys.argv[3])
     else:
         print u"""requires 3 parameters (recipient, subject, body)
-\t$ zabbix-gmail.sh recipient subject body
+\t$ mail.sh recipient subject body
 """
 
